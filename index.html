@@ -9,6 +9,14 @@
 <body>
   <div class="container">
     <h1>Assignment Tracker</h1>
+    <div style="display: flex; justify-content: space-between; margin-bottom: 16px;">
+  <div>
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="done">Done</button>
+    <button class="filter-btn" data-filter="pending">Pending</button>
+  </div>
+  <button id="themeToggle">Toggle Theme</button>
+    </div>
     <form id="assignmentForm">
       <input type="text" id="title" placeholder="Assignment Title" required>
       <input type="date" id="dueDate" required>
